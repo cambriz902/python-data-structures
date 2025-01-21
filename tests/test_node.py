@@ -1,7 +1,7 @@
 import unittest
 from models.Node import Node
 
-class TestNode(unittest.TestCase):
+class NodeUnitTests(unittest.TestCase):
     def test_node_creation(self):
         node = Node(10)
         self.assertEqual(node.value, 10) 
